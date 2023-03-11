@@ -19,6 +19,7 @@ let dice2 = 10;
 let sumOfDice = dice1 + dice2;
 
 let wonTheGame = false;
+let aliveInTheGame = true;
 
 //deciding section
 if (sumOfDice < 12) {
@@ -28,6 +29,7 @@ if (sumOfDice < 12) {
   wonTheGame = true;
 } else {
   console.log("Bye, Bye! Better Luck Next Time");
+  aliveInTheGame = false;
 }
 
 //prize distribution
@@ -35,4 +37,10 @@ if(wonTheGame){
   console.log("Here is your prize")
 }else{
   console.log("No Prize for you at this moment")
+}
+
+if (aliveInTheGame) {
+    console.log("Still alive in the game");
+} else {
+    console.log("No more lives left");
 }
