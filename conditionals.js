@@ -7,7 +7,7 @@ if (age < 17) {
   console.log("discount 10%");
 } else if (age === 17) {
   console.log("discount 17%");
-} else if (age > 17) {
+} else {
   console.log("discount 15%");
 }
 
