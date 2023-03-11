@@ -51,3 +51,10 @@ if (aliveInTheGame) {
 //2. Store respective value of the message as per the cases
 //3. print the message
 console.log(message)
+
+function startGame(){
+    console.log("starting");
+}
+
+let startButton = document.getElementById("start-btn");
+startButton.addEventListener("click", startGame)
