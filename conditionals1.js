@@ -8,8 +8,9 @@
 // 12 === "12" -> false
 
 //Exercise Game Building
-let dice1 = 2;
+let dice1 = 5;
 let dice2 = 10;
+
 
 //1. calculate sum in a new variable, sumOfDice
 //2. if sum less than 12 -> "Would you like to roll one more dice?"
@@ -33,6 +34,8 @@ console.log(message)
 //3. create a function startGame -> console.log("Starting");
 //3. on click of button call the function startGame()
 function startGame() {
+    let sumEl = document.getElementById("sum")
+    sumEl.innerText = "Sum :- "+ sumOfDice
     //deciding section
     if (sumOfDice < 12) {
         message = "Would you like to roll one more dice?"
@@ -60,3 +63,8 @@ function startGame() {
 
 let startButton = document.getElementById("start-btn");
 startButton.addEventListener("click", startGame)
+
+let d1 = document.getElementById("dice1")
+d1.innerText = dice1
+let d2 = document.getElementById("dice2")
+d2.innerText = dice2
