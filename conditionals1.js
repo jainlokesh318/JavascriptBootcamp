@@ -52,6 +52,10 @@ if (aliveInTheGame) {
 //3. print the message
 console.log(message)
 
+//1. button with "Start the Game" text
+//2. store the button element in JS variable
+//3. create a function startGame -> console.log("Starting");
+//3. on click of button call the function startGame()
 function startGame(){
     console.log("starting");
 }
