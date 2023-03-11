@@ -20,16 +20,17 @@ let sumOfDice = dice1 + dice2;
 
 let wonTheGame = false;
 let aliveInTheGame = true;
+let message = ""
 
 //deciding section
 if (sumOfDice < 12) {
-  console.log("Would you like to roll one more dice?");
+    message = "Would you like to roll one more dice?"
 } else if (sumOfDice === 12) {
-  console.log("Hurrah! you have won the game");
-  wonTheGame = true;
+    message = "Hurrah! you have won the game"
+    wonTheGame = true;
 } else {
-  console.log("Bye, Bye! Better Luck Next Time");
-  aliveInTheGame = false;
+    aliveInTheGame = false;
+    message = "Bye, Bye! Better Luck Next Time"
 }
 
 //prize distribution
@@ -44,3 +45,9 @@ if (aliveInTheGame) {
 } else {
     console.log("No more lives left");
 }
+
+//show the message
+//1. Initialize a variable, message with empty string
+//2. Store respective value of the message as per the cases
+//3. print the message
+console.log(message)
