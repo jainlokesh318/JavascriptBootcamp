@@ -22,30 +22,6 @@ let wonTheGame = false;
 let aliveInTheGame = true;
 let message = ""
 
-//deciding section
-if (sumOfDice < 12) {
-    message = "Would you like to roll one more dice?"
-} else if (sumOfDice === 12) {
-    message = "Hurrah! you have won the game"
-    wonTheGame = true;
-} else {
-    aliveInTheGame = false;
-    message = "Bye, Bye! Better Luck Next Time"
-}
-
-//prize distribution
-if(wonTheGame){
-  console.log("Here is your prize")
-}else{
-  console.log("No Prize for you at this moment")
-}
-
-if (aliveInTheGame) {
-    console.log("Still alive in the game");
-} else {
-    console.log("No more lives left");
-}
-
 //show the message
 //1. Initialize a variable, message with empty string
 //2. Store respective value of the message as per the cases
@@ -56,8 +32,30 @@ console.log(message)
 //2. store the button element in JS variable
 //3. create a function startGame -> console.log("Starting");
 //3. on click of button call the function startGame()
-function startGame(){
-    console.log("starting");
+function startGame() {
+    //deciding section
+    if (sumOfDice < 12) {
+        message = "Would you like to roll one more dice?"
+    } else if (sumOfDice === 12) {
+        message = "Hurrah! you have won the game"
+        wonTheGame = true;
+    } else {
+        aliveInTheGame = false;
+        message = "Bye, Bye! Better Luck Next Time"
+    }
+
+    //prize distribution
+    if (wonTheGame) {
+        console.log("Here is your prize")
+    } else {
+        console.log("No Prize for you at this moment")
+    }
+
+    if (aliveInTheGame) {
+        console.log("Still alive in the game");
+    } else {
+        console.log("No more lives left");
+    }
 }
 
 let startButton = document.getElementById("start-btn");
