@@ -24,16 +24,28 @@ let flowerlist = [
     "Daisy",
     "Tulip",
     "Marigold",
-    "Lotus"
+    "Lotus",
+    "Hibiscus"
   ];
-  console.log(flowerlist);
-  console.log(flowerlist[0]);
-  console.log(flowerlist[1]);
-  console.log(flowerlist[2]);
-  console.log(flowerlist[3]);
-  console.log(flowerlist[4]);
-  console.log(flowerlist[5]);
-  console.log(flowerlist[6]);
-  console.log(flowerlist[7]);
-  
-  console.log(flowerlist.length);
+console.log(flowerlist);
+console.log(flowerlist.length);
+
+for(let i = 0; i < flowerlist.length; i = i+1){
+    console.log(flowerlist[i]);
+}
+
+//add a new item to the array
+flowerlist.push("Snapdragon")
+console.log(flowerlist);
+
+//remove last item from array
+flowerlist.pop();
+console.log(flowerlist);
+flowerlist.pop();
+console.log(flowerlist);
+
+flowerlist.pop();
+flowerlist.pop();
+console.log(flowerlist);
+
+
