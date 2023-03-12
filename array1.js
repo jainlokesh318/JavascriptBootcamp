@@ -7,3 +7,6 @@ console.log(list);
 //accessing items of an array
 console.log(list[0]);
 console.log(list[1]);
+
+//length of an array
+console.log(list.length)
