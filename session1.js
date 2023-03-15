@@ -25,3 +25,11 @@ let myVariable = "testing123"
 console.log(myVariable)
 myVariable = "random123"
 console.log(myVariable)
+
+const isRaining = false;
+
+if(isRaining) {
+    console.log("Stay inside");
+} else {
+    console.log("Play for 1 hr outside")
+}
