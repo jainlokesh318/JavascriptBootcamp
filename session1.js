@@ -37,3 +37,9 @@ if(isRaining) {
 //create a variable isMorning and on basis of the boolean value you give 
 //print I can see the Sun
 //or if its not morning print I cannot see the Sun
+
+//Exercise : 1
+//you are maintaining score of a match
+//on basis of variable didWon either increase score if won
+//or decrease score if lost
+//at last print score of the match
