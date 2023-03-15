@@ -44,6 +44,16 @@ if(isRaining) {
 //or decrease score if lost
 //at last print score of the match
 
+let score = 10
+const didWon = false
+if(didWon){
+    score = score+1;
+}else{
+    score = score-1;
+}
+console.log(score)
+
+
 //Exercise : 2
 //you are catching fishes
 //if you were able to catch a fish increase your count by 1
