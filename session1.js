@@ -49,3 +49,13 @@ if(isRaining) {
 //if you were able to catch a fish increase your count by 1
 //else do nothing keep fishing
 
+//Exercise : 3
+//you are in a exam hall and till now you gathered 30 marks
+//if you get a question correct your total marks increase by 5
+//but if you get it wrong 1 mark is deucted from your total Marks
+
+
+
+
+
+
