@@ -43,3 +43,9 @@ if(isRaining) {
 //on basis of variable didWon either increase score if won
 //or decrease score if lost
 //at last print score of the match
+
+//Exercise : 2
+//you are catching fishes
+//if you were able to catch a fish increase your count by 1
+//else do nothing keep fishing
+
