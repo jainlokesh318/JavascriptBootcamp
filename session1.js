@@ -33,3 +33,7 @@ if(isRaining) {
 } else {
     console.log("Play for 1 hr outside")
 }
+
+//create a variable isMorning and on basis of the boolean value you give 
+//print I can see the Sun
+//or if its not morning print I cannot see the Sun
