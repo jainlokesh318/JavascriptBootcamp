@@ -68,6 +68,13 @@ console.log(score)
 //you have a counter basically to count the no. of balls in a tub
 //take a variable which shows if newBall is incoming
 //on basis of that increment the counter
+let counter = 10
+let isNewBallIncoming = true
+if(isNewBallIncoming){
+    counter = counter + 1
+}
+console.log(counter)
+
 
 
 
