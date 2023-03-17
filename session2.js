@@ -29,3 +29,8 @@ turnOnTV
 //function calling / invokation
 turnOnTV()
 turnOnTV()
+
+//consider you have 30 marks till now
+//after that for 5 next questions whoose status we will know by a variable, 
+//update the totalMarks using a function
+//at the end print the totalMarks
