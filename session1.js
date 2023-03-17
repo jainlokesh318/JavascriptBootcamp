@@ -64,6 +64,11 @@ console.log(score)
 //if you get a question correct your total marks increase by 5
 //but if you get it wrong 1 mark is deucted from your total Marks
 
+//Exercise : 4
+//you have a counter basically to count the no. of balls in a tub
+//take a variable which shows if newBall is incoming
+//on basis of that increment the counter
+
 
 
 
