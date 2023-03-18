@@ -124,10 +124,10 @@ groceryShop("pink", 2)
 //Exercise 9
 //Create a function rectanglePerimeter that takes length, breadth of rectangle as arguments and later displays its perimeter
 
-//Exercise 8
+//Exercise 10
 //Create a function circleArea that takes radius of circle as arguments and later displays its area
 
-//Exercise 9
+//Exercise 11
 //Create a function circlePerimeter that takes radius of circle as arguments and later displays its perimeter
 
 
