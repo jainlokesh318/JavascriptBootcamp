@@ -59,34 +59,3 @@ updateMarks()
 isCorrect = false;
 updateMarks();
 
-
-function allooKiSubji(){
-    console.log("wash alloo");
-    console.log("put on flame");
-    console.log("cook alloo");
-}
-
-
-function bhindiKiSubji(){
-    console.log("wash bhindi");
-    console.log("put on flame");
-    console.log("cook bhindi");
-}
-
-function karelaKiSubji(){
-    console.log("wash karela");
-    console.log("put on flame");
-    console.log("cook karela");
-}
-
-
-//arguments
-function cook(subji){
-    console.log("wash", subji);
-    console.log("put on flame");
-    console.log("cook on flame", subji);
-}
-
-cook("alloo")
-cook("bhindi")
-cook("karela")
