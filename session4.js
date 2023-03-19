@@ -39,9 +39,11 @@ let perimeter1 = squarePerimeter(8);
 console.log(perimeter1);
 
 //Exercise 2
+//Write a function take calculates sum of three numbers and return their sum
+
+
+//Exercise 3
 //Write a function that checks if given number is odd or not
 //if odd then return "odd number"
 //else return "even number"
 
-//Exercise 3
-//Write a function take calculates sum of three numbers and return their sum
