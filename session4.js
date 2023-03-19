@@ -20,12 +20,28 @@ function sqaureArea(side){
 }
 
 //function invocation
-sqaureArea(4);
-sqaureArea(5);
+let square4Area = sqaureArea(4);
+let square5Area = sqaureArea(5);
+
+console.log(square4Area);
+console.log(square5Area);
 
 //Exercise 1
 //Create a function squarePerimeter that takes side of square as arguments and return its perimeter
 //display later
+function squarePerimeter(side) {
+    let perimeterOfSquare = 4 * side;
+    console.log("Perimeter of Square is -:", perimeterOfSquare);
+    return perimeterOfSquare;
+}
+let perimeter1 = squarePerimeter(8);
+  
+console.log(perimeter1);
 
 //Exercise 2
+//Write a function that checks if given number is odd or not
+//if odd then return "odd number"
+//else return "even number"
+
+//Exercise 3
 //Write a function take calculates sum of three numbers and return their sum
