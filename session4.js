@@ -80,3 +80,33 @@ for(let count = 1; count < 9; count = count + 1){
 
 //exercise 
 //Write code that logs 1....100
+
+// *
+// **
+// ***
+// ****
+
+//NESTED FOR LOOPS
+for(let line = 0; line < 4; line = line+1){
+    let star = ""
+    for(let str = 0; str <= line; str = str+1){
+        star = star + '*'
+    }
+    console.log(star)    
+}
+
+// Exercise 1
+// $
+// $$
+// $$$
+// $$$$
+// $$$$$
+
+//Exercise 2
+//*
+//##
+//***
+//####
+//*****
+
+//
