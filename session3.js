@@ -115,6 +115,15 @@ groceryShop("pink", 2)
 //Exercise 6
 //Create a function squareArea that takes side of square as arguments and later displays its area
 
+//Function declaration
+function sqaureArea(side){
+    let area = side*side;
+    console.log("Area of square is :- ", area);
+}
+
+//function invocation
+sqaureArea(4);
+
 //Exercise 7
 //Create a function squarePerimeter that takes side of square as arguments and later displays its perimeter
 
