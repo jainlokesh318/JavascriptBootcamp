@@ -64,3 +64,19 @@ console.log(whatIs5)
 //if after dividing by 2 gives 0 remainder its even
 //else its odd 
 
+
+
+//LOOPS
+function cook(subji){
+    let readySubji = "cooked "+subji;
+    return readySubji;
+}
+
+for(let count = 1; count < 9; count = count + 1){
+    console.log("customer ", count);
+    let aalooSbji = cook("aaloo")
+    console.log(aalooSbji)
+}
+
+//exercise 
+//Write code that logs 1....100
