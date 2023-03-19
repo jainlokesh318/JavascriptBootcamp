@@ -46,4 +46,21 @@ console.log(perimeter1);
 //Write a function that checks if given number is odd or not
 //if odd then return "odd number"
 //else return "even number"
+function checkEvenOdd(num){
+    let remainder = num % 2;
+    if(remainder === 0){
+        return "even number"
+    }else{
+        return "odd number"
+    }
+}
+
+let whatIs4 = checkEvenOdd(4)
+console.log(whatIs4)
+let whatIs5 =checkEvenOdd(5)
+console.log(whatIs5)
+
+
+//if after dividing by 2 gives 0 remainder its even
+//else its odd 
 
