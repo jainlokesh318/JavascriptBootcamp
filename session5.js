@@ -45,7 +45,7 @@ let perimeter = (l, b) => {
   console.log(typeof num)
   console.log(typeof str)
 
-  //array
+//array
 let toBuy = ["maggi", "sauce", "olive", "capsicum", "egetr", "brt", "ergert"];
 
 let length = toBuy.length
@@ -54,5 +54,40 @@ for(let i = 0; i < 6; i = i+1){
     console.log(toBuy[i]);
 }
 
+//exercise 2
+//write a function that prints all items of given array
+
+let printArrayItems = (arr) => {
+    let length = arr.length
+    for(let i = 0; i < length; i = i+1){
+        console.log(arr[i]);
+    }
+}
+
+let a1 = ["a", "b", "c", "d"]
+printArrayItems(a1)
+
+let a2 = [1, 2, 3, 4, 5];
+printArrayItems(a2)
+
+//exercise 2
+//write a function that prints items at odd index of given array
+let printOddIndexArrayItems = (arr) => {
+    let length = arr.length
+    for(let i = 0; i < length; i = i+1){
+        if(i%2 !== 0){
+            console.log(arr[i]);
+        }
+    }
+}
+
+//exercise 3
+//write a function that return sum of all numbers of given array
+
+//exercise 4
+//write a function that return sum of all odd numbers of the given array
+
+//exercise 5
+//write a function that return sum of all even numbers of the given array
 
 
