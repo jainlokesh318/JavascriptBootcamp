@@ -81,6 +81,9 @@ let printOddIndexArrayItems = (arr) => {
     }
 }
 
+//Practice Exercise
+//Find sum of all numbers of given array
+
 //exercise 3
 //write a function that return sum of all numbers of given array
 
