@@ -12,9 +12,9 @@ console.log(sum1);
 
 
 //Arrow functions
-function sum(){}
+// function sum(){}
 
-let sum = () => {}
+// let sum = () => {}
 
 //Exercise 1
 function sumOf5num(num1, num2, num3, num4, num5) {
@@ -23,7 +23,7 @@ function sumOf5num(num1, num2, num3, num4, num5) {
     return sum;
 }
 
-let sumOf5num = (num1, num2, num3, num4, num5) => {
+let sumOf5nums = (num1, num2, num3, num4, num5) => {
     let sum = num1 + num2 + num3 + num4 + num5;
     console.log(sum);
     return sum;
@@ -44,5 +44,15 @@ let perimeter = (l, b) => {
   console.log(typeof perimeter)
   console.log(typeof num)
   console.log(typeof str)
+
+  //array
+let toBuy = ["maggi", "sauce", "olive", "capsicum", "egetr", "brt", "ergert"];
+
+let length = toBuy.length
+console.log(length)
+for(let i = 0; i < 6; i = i+1){
+    console.log(toBuy[i]);
+}
+
 
 
