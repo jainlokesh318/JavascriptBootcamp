@@ -83,6 +83,12 @@ let printOddIndexArrayItems = (arr) => {
 
 //Practice Exercise
 //Find sum of all numbers of given array
+let sumArr = [1, 2, 3, 4, 5];
+let sum = 0;
+for(let i = 0; i < sumArr.length; i++){
+    sum = sum + sumArr[i];
+}
+console.log(sum);
 
 //exercise 3
 //write a function that return sum of all numbers of given array
