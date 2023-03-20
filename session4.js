@@ -101,13 +101,34 @@ for(let line = 0; line < 4; line = line+1){
 // $$$
 // $$$$
 // $$$$$
+for(let line = 0; line < 5; line = line+1){
+    let dollar = "";
+    for(let count = 0; count <= line; count = count+1){
+        dollar = dollar + "$";
+    } 
+    console.log(dollar);
+}
+
 
 //Exercise 2
-//*
-//##
-//***
-//####
-//*****
+//0 -> *
+//1 -> ##
+//2 -> ***
+//3 -> ####
+//4 -> *****
+for(let line = 0; line < 5; line = line+1){
+    let str = "";
+    for(let count = 0; count <= line; count = count+1){
+        if(line%2 === 0){
+            str = str + "*";
+        }else{
+            str = str + "#";
+        }
+
+    } 
+    console.log(str);
+}
+
 
 //Exercise 3
 //      *
@@ -116,3 +137,14 @@ for(let line = 0; line < 4; line = line+1){
 //   ****
 //  *****
 // ******
+let n = 6;
+for(let line = 0; line < n; line = line +1){
+    let str = "";
+    for(let space = 0; space < n-line; space = space+1){
+        str = str + " ";
+    }
+    for(let star = 0; star <= line; star = star + 1){
+        str = str + '*';
+    }
+    console.log(str);
+}
