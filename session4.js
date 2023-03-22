@@ -5,10 +5,10 @@ function cook(subji){
     console.log("cook on flame", subji);
 
     let readySubji = "cooked "+subji;
-    return readySubji;
+    console.log(readySubji)
 }
 
-let aalooSbji = cook("aaloo")
+let ourSbji = cook("aaloo")
 
 
 

@@ -95,8 +95,44 @@ console.log(sum);
 
 //exercise 4
 //write a function that return sum of all odd numbers of the given array
+//then check if the sum is odd or even
+
+let sumOfAllOdd = (array) => {
+    let sum = 0;
+    for(let i = 0; i < array.length; i++){
+        sum = sum + array[i];
+    }
+    return sum;
+}
+
+let isOddOrEven = (num) => {
+    if(num%2 === 0){
+        return "even number";
+    }else{
+        return "odd number";
+    }
+}
+ 
+let arr = [1, 2, 3, 4, 5];
+let res = sumOfAllOdd(arr);
+let isSumOddOrEven = isOddOrEven(res);
+console.log(isSumOddOrEven)
+
+
+
+
+
+
+
+console.log("Sum of odd numbers", res);
 
 //exercise 5
 //write a function that return sum of all even numbers of the given array
+
+//exercise 6
+//write a function that return sum of all even index numbers of the given array
+
+//exercise 7
+//write a function that return sum of all odd index numbers of the given array
 
 
