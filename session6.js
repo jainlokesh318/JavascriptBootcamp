@@ -17,7 +17,6 @@ console.log(res);
 
 
 //Filtration
-
 //Exercise 1 
 //Write a function that returns all even numbers from the given array
 
@@ -27,5 +26,16 @@ console.log(res);
 //Exercise 3
 //Write a function that returns all numbers at odd indexes from the given array
 
-//Exercise 3
+//Exercise 4
 //Write a function that returns all numbers between the range 10 to 40 from the given array
+
+
+//map
+//Exercise 5
+//Write a function that returns all numbers of given array multiplied by 5 
+// [1, 2, 3, 4]
+// [5, 10, 15, 20]
+
+// arr.map
+// arr.filter
+// arr.reduce
