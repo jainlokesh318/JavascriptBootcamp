@@ -48,12 +48,3 @@
 
 // let res = addFruits(["Apple", "Banana", "Mango"])
 // console.log(res)
-
-let makeCopy = (arr) => {
-    let newArr = [...arr];
-   
-  return newArr;
-  };
-  
-  let arr1 = makeCopy(["maha ","raja"]);
-  console.log(arr1);
