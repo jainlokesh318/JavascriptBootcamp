@@ -85,3 +85,14 @@ console.log(res1) //3 properties
 
 //Exercise 5
 //Write a function that returns a newCopy of given object and add a property to it
+let school = { name: "bishop", city: "subashngr", state: "u.p" };
+let addProperty = (obj) => {
+  let newObj = { ...obj, address: "civillines", peraddress: "gomtinagar" };
+  return newObj;
+};
+let rty = addProperty(school);
+console.log(rty);
+
+
+//Exercise 6
+//Write a function that returns a newCopy of given two objects with all their properties in the single new Object
