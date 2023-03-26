@@ -17,7 +17,7 @@ for(let key in school){
     console.log(school[key]);
 }
 
-let key = "class"
-console.log(school[key])
+//Exercise 2
+//Print all keys and values of the above created object in the exercise
 
 
