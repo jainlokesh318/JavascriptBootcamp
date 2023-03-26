@@ -50,12 +50,22 @@ console.log(test);
 
 //Exercise 4
 //Write a function that creates a copy of the given object
+//Version 1
 let copyObject = (obj) => {
     let newObj = {}
     for(key in obj){
         newObj[key] = obj[key]
     }
     return newObj;
+}
+
+//Destructuring
+//Version 2
+let copyObject2 = (obj) => {
+    let newObj = {...obj}
+    return newObj
+
+    // or directly -> // return {...obj}
 }
 
 // let school = {
@@ -72,3 +82,6 @@ school["testing"] = "ekrhhbfh"
 console.log(school); //3 properties
 console.log(res); //2 properties
 console.log(res1) //3 properties
+
+//Exercise 5
+//Write a function that returns a newCopy of given object and add a property to it
