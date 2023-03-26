@@ -47,3 +47,28 @@ let ifKeyExists2 = (obj, keyToCheck) => {
 
 let test = ifKeyExists(school, "xyz")
 console.log(test);
+
+//Exercise 4
+//Write a function that creates a copy of the given object
+let copyObject = (obj) => {
+    let newObj = {}
+    for(key in obj){
+        newObj[key] = obj[key]
+    }
+    return newObj;
+}
+
+// let school = {
+//     name: "Marian School",
+//     class: 10,
+// }
+
+let res = copyObject(school);
+
+let res1 = school
+
+school["testing"] = "ekrhhbfh"
+
+console.log(school); //3 properties
+console.log(res); //2 properties
+console.log(res1) //3 properties
