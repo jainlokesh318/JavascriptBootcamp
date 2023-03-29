@@ -21,6 +21,34 @@
 //----------------------------------------------------------------------------------------------------------
 
 //Exercise 5
+//Write a function to get the first element of an array. Passing a parameter 'n' will return the first 'n' elements of the array
+//Example
+// first([7, 9, 0, -2]) -> returns  7 
+// first([],3) -> returns []
+// first([7, 9, 0, -2],3) -> returns [7, 9, 0]
+// first([7, 9, 0, -2],6) -> returns [7, 9, 0, -2]
+// first([7, 9, 0, -2],-3) -> returns []
+//----------------------------------------------------------------------------------------------------------
+
+//Exercise 6
+// There are two arrays with individual values, write a function to compute the sum of each individual index value from the given arrays
+// Sample array :
+// array1 = [1,0,2,3,4];
+// array2 = [3,5,6,7,8,13];
+//
+// Expected Output :
+// [4, 5, 8, 10, 12, 13]
+//----------------------------------------------------------------------------------------------------------
+
+//Exercise 7
+//Given a array of array, merge them  to make a single array
+//Interview Question called as flatten an array
+//[[1, 2, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]]
+//Expected output
+//[ 1, 2, 24, 8, 11, 9, 4, 7, 0, 7, 27, 7, 4, 28, 14, 3, 10, 26, 7]
+//----------------------------------------------------------------------------------------------------------
+
+//Exercise 8
 // let names = ["Karishma", "Krishna", "Ram", "Shyam", .......]
 // let ages = [10, 20, 55, 30, .......]
 //
@@ -44,7 +72,7 @@
 // ] 
 //----------------------------------------------------------------------------------------------------------
 
-//Exercise 6
+//Exercise 9
 // Given a object of sweets and their sweetness level.
 // Write a function that returns sweets objects above 100 sweetness level 
 //
@@ -66,5 +94,5 @@
 // ]
 //----------------------------------------------------------------------------------------------------------
 
-//Exercise 7
+//Exercise 10
 //Also Write a function that returns the total sweetness from the above given array of sweets
