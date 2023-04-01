@@ -62,7 +62,6 @@ const deciding = (cb1, cb2, num) => {
 deciding(evenCall, oddCall, 5)
 deciding(evenCall, oddCall, 4)
 
-
 //TODO: Exercise 4
 //Write a function which takes 3 arguments :- 2callback, and one number
 //If number is odd then call the first callback which prints that number also
