@@ -20,6 +20,13 @@ let callbackExample1 = () => {
 
 //Exercise 1
 //Write a function that prints your name using a callback.
+const printStr1 = () => {
+    console.log("Lokesh")
+}
+const printName1 = (cb) => {
+    cb()
+}
+printName1(printStr)
 
 //Exercise 2
 //Write a function that prints given name using a callback.
@@ -36,4 +43,12 @@ printName("Lokesh", printStr)
 //Write a function which takes 3 arguments :- 2callback, and one number
 //If number is odd then call the first callback
 //Else call the second callback
+
+
+//Exercise 4
+//Through a variable you will know if its raining or not
+//
+//Write a function which calls the makePakoda function if its raining
+//else it calls the bringIceCream function
+//Note: The functions are passed as callback 
 
