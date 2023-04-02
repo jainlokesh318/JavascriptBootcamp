@@ -20,8 +20,16 @@
 
 console.log("A")
 
-fetch("https://SillyMagnificentEvents.lokesh-jainjain.repl.co")
-.then(data => data.text())
-.then(text => console.log(text))
+// fetch("https://SillyMagnificentEvents.lokesh-jainjain.repl.co")
+// .then(data => data.text())
+// .then(text => console.log(text))
 
 console.log("B")
+
+const myHeading = document.getElementById("heading")
+
+fetch("https://SillyMagnificentEvents.lokesh-jainjain.repl.co")
+.then(data => data.json())
+.then(json => {
+    myHeading.innerText = json.text
+})
