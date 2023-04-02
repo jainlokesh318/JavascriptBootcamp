@@ -33,3 +33,20 @@ fetch("https://SillyMagnificentEvents.lokesh-jainjain.repl.co")
 .then(json => {
     myHeading.innerText = json.text
 })
+
+// for(let i = 0; i < 10; i++)
+// {
+
+// }
+
+// let j = 0;
+// while(j < 10){
+
+//     j++;
+// }
+
+// let z = 0;
+// do{
+//     z++;
+// }while(z < 10)
+
