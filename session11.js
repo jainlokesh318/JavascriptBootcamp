@@ -28,12 +28,11 @@ console.log("B")
 
 const myHeading = document.getElementById("heading")
 
-fetch("https://SillyMagnificentEvents.lokesh-jainjain.repl.co")
-.then(data => data.json())
-.then(json => {
-    myHeading.innerText = json.text
-})
+const o1 = fetch("https://SillyMagnificentEventsjh.lokesh-jainjain.repl.co")
 
+o1.then(res => console.log("inside promise", res)).catch(err => console.log("in catch"))
+
+// .then(res => res.json())
 // for(let i = 0; i < 10; i++)
 // {
 
