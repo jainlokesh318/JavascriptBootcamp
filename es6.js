@@ -96,9 +96,11 @@
 // console.log(person)
 
 const arr = [1, 2, 3, 4, 5, "dfeg", [11, 2, 3], {age: 10}]
-
-arr.push(34)
+arr.pop();
+// arr.push(34)
 console.log(arr)
+
+// https://www.w3schools.com/js/js_array_methods.asp
 
 //TODO :- 
 //const with objects
