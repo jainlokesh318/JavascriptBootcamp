@@ -57,4 +57,13 @@ function xyz(){
 console.log("4",a);
 xyz()
 
+//TODO :- 
+//const with objects
+//const with arrays
+//arrow functions
+//default parameters
+//rest and spread
+//spread with object
+//spread with array
+
 
