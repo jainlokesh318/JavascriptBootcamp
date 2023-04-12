@@ -74,20 +74,31 @@
 // r = 9;
 // console.log(r);
 
-const person = {
-    firstName: "Ram",
-    lastName: "Gupta",
-    address: {
-        country: "India",
-        state: "MP",
-        district: "Sagar"
-    }
-}
-person.firstName = "Shyam"
+// const person = {
+//     firstName: "Ram",
+//     lastName: "Gupta",
+//     address: {
+//         country: "India",
+//         state: "MP",
+//         district: "Sagar"
+//     }
+// }
 
-person.address.pincode = 123456
+// person.age = 25
 
-console.log(person)
+// delete person.age
+// delete person.address.state
+
+// person.firstName = "Shyam"
+
+// person.address.pincode = 123456
+
+// console.log(person)
+
+const arr = [1, 2, 3, 4, 5, "dfeg", [11, 2, 3], {age: 10}]
+
+arr.push(34)
+console.log(arr)
 
 //TODO :- 
 //const with objects
