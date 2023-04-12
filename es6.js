@@ -1,15 +1,20 @@
-//var, let, const
-console.log(a)
-var a;
-console.log(a) 
-a = 2;
-console.log(a)
-
-abc();
-//Function declaration
 function abc(){
-    console.log("Hello function called")
+    let a = 4;
+    const b = 4;
 }
+
+//console.log(a);
+//console.log(b);
+
+{
+    let a = 10
+}
+
+if(true) {
+    let a = 10
+console.log(a)
+}
+abc()
 
 
 
