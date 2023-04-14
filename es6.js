@@ -111,4 +111,113 @@ console.log(arr)
 //spread with object
 //spread with array
 
+//14th April 
+// function getNumber(){
+//   return 2
+// }
 
+// let getNumber = () => {
+//   return 2;
+// }
+
+let getNumber = () => 2;
+
+let num = getNumber();
+console.log(num)
+
+// let getMultiple = (num) => {
+//   return num*10
+// } 
+
+// let getMultiple = (num) => num*10
+
+let getMultiple = num => num*10
+
+let getSum = (a, b) => a+b;
+
+//-------------------------------------------
+
+let sum = getSum(3, 5)
+console.log(sum)
+
+//COnvert into single line function
+console.log("Before", isOdd)
+function isOdd(num){
+  if(num%2 === 0){
+    return false
+  }else{
+    return true
+  }
+}
+console.log("After", isOdd)
+
+// console.log("-----> Before", isOddARROW)
+// let isOddARROW = (num) => {
+//   if(num%2 === 0){
+//     return false
+//   }else{
+//     return true
+//   }
+// }
+// console.log("After", isOddARROW)
+
+// console.log("Before a", a)
+// var a = 2
+// console.log("After a", a)
+
+//Proof of let/const hoisting
+// let a = 2
+// {
+//     console.log(a)
+//     let a = 2
+// }
+
+let getMultipleDefault = num => num*10
+
+getMultipleDefault();
+
+
+//Default Parameters
+let convertRupeesToDollar = (num=0) => num/80
+
+let res = convertRupeesToDollar();
+console.log(res)
+
+let res1 = convertRupeesToDollar(100);
+console.log(res1)
+
+//REST OPERATOR
+let addSumOptimized = (...nums) => {
+    console.log(nums);
+};
+const resFinal = addSumOptimized(2, 4, 5, 6);
+
+let addSumOptimized2 = (a, b, ...nums) => {
+    console.log("a", a)
+    console.log("b", b)
+    console.log(nums)
+};
+const resFinal1 = addSumOptimized2(2, 4, 5, 6);
+
+class Flat {
+    //Global
+      address = "New Delhi"
+    
+    //Constructor
+      constructor(b, t, k) {
+        this.bedrooms = b;
+        this.toilets = t;
+        this.kitchen = k;
+      }
+    //Methods
+      clean = () => {
+        console.log("Cleaning", this.bedrooms);
+      };
+}
+    
+    const f1 = new Flat(4, 2, 1);
+    console.log(f1.address);
+    f1.clean()
+    const f2 = new Flat(3, 1, 1);
+    console.log(f2.address);
+    f2.clean()
